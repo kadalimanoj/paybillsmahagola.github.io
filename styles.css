@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(electricity2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.navbar{
+    height: 10vh;
+    text-align: center;
+    background-color: #b8763350;
+}
+.navbar li{
+    margin: 1%;
+    width: 20%;
+    display: inline-block;
+    position: relative;
+}
+.navbar li a{
+    font-size: 30px;
+    color: black;
+}
+.list-quick{
+    text-decoration: none;
+    padding: 5%;
+    background-color: #ffd70025;
+    box-shadow: 3px 4px;
+    border-radius: 8px;
+}
+a:hover{
+    background-color: #ffd70075;
+    box-shadow: 6px 8px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.left{
+    margin: 0%;
+    float: left;
+    width: 25vw;
+    height: 90vh;
+}
+#headerLeft1{
+    font-size: 40px;
+    text-align: center;
+}
+.login{
+    margin: 12%;
+    background-color: #e4bf35;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    padding: 10px;
+}
+.para{
+    margin: auto;
+    background-color: #9df3e3;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    padding: 10px;
+    
+}
+.forms{
+    font-size: 19px;
+}
+.button{
+    font-size: 16px;
+    margin: 5%;
+    padding: 5%;
+    width: max-content;
+    border-radius: 4px;
+    box-shadow: 3px 3px;
+}
+.faq{
+    margin: 10%;
+    background-color: #34b1eb;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+} 
+ .faq:hover{
+    box-shadow: 8px 8px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.faq ul{
+    padding-left: 25px;
+}
+#faqs{
+    font-size: 40px;
+    text-align: center;
+}
+.faqList{
+    font-size: 19px;
+}
+.mid{
+    margin: 0%;
+    float: left;
+    width: 50vw;
+    height: 90vh;
+}
+.mid:hover{
+    background-color: #ffd70010;
+}
+#headerMid1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    padding: 5% 0%;
+}
+#headerMid2{
+    text-align: center;
+    font-size: 35px;
+    padding: 1% 0% 5% 0%;
+}
+#textMid1{
+    text-align: justify;
+    border: black solid 2px;
+    padding: 5%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.right{
+    margin: 0%;
+    float: right;
+    width: 23vw;
+    height: 90vh;
+}
+.quickLinks{
+    margin: 12%;
+    background-color: #e4bf35;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    padding: 10px;
+}
+.quickLinks ul{
+    padding-left: 25px;
+}
+.quickLinks p{
+    font-size: 40px;
+    text-align: center;
+}
+.quickLinks a{
+    padding: 3%;
+    line-height: 200%;
+    font-size: 19px;
+    color: black;
+}
+.hCS{
+    background-color: #34b1eb;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+}
+.hCS:hover{
+    box-shadow: 8px 8px;
+    transition: box-shadow 0.3s ease-in-out ;
+}
+.hCSHeader{
+    font-size: 30px;
+    text-align: center;
+}
+.hCS ul{
+    padding-top: 25px;
+    padding-left: 40px;
+}
+.hCS li{
+    font-size: 20px;
+}
